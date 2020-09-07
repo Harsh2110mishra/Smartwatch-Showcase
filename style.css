@@ -1,0 +1,145 @@
+body {
+  display: block;
+}
+header {
+    display: flex;
+  height:88px;
+  width:101.5%;
+  background-color: #232f3e;
+  margin-left:-7.8px;
+  margin-top:-8px;
+  z-index: 2;
+}
+header img {
+    margin-left: 600px;
+    margin-top: 20px;
+    height:50px;
+    width:auto;
+}
+.watch{grid-area:watch;}
+.watch img{
+    height: 450px;
+    width:auto;
+    margin-left:100px;
+    margin-top:30px;
+}
+.mid-content{grid-area:mid;
+margin-left:-50px;
+margin-top: 15px;
+font-family:"Montserrat";
+}
+.mid-content H1{
+    font-family:"Source Sans Pro";
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.mid-content p{
+    font-size:16px;
+    font-weight: 400;
+    margin-right: 200px;
+}
+.mid-content h3{
+    margin-top: 30px;
+    font-family:"Source Sans Pro";
+    font-size:24px;
+    font-weight: bolder;
+    color:#433f40;
+}
+#none{
+  display: none;
+}
+.color-boxes{
+  display: grid;
+  grid-template-areas:"a a a a a a";
+  grid-auto-columns: 20px;
+  grid-gap: 80px;
+}
+#blue{
+  background-color: #565681 ;
+  width:60px;
+  margin-left: 10px;
+border: 1px solid #565681 ;
+padding: 15px ;
+border-radius: 5px;
+}
+#purple{
+  background-color: #8a5362 ;
+  
+width:60px;
+  border: 1px solid #8a5362 ;
+  padding: 15px ;
+border-radius: 5px;
+}
+#black{
+  background-color: #23211f ;
+  width:60px;
+  border: 1px solid #23211f ;
+  padding: 15px ;
+border-radius: 5px;
+}
+#red{
+  background-color: #ca3d22 ;
+  width:60px;
+  border: 1px solid #ca3d22 ;
+  padding: 15px ;
+  border-radius: 5px;
+}
+#pink{
+  background-color: #e9c7be ;
+  width:60px;
+padding: 15px ;
+border-radius: 5px;
+color:#e9c7be;
+border: 1px solid #e9c7be ;
+
+}
+.features button{
+    font-family:"Montserrat";
+    font-size: 14px;
+    font-weight: 900;
+    width:100px;
+    border-radius: 5px;
+    height: 40px;
+    background-color:lightgray ;
+
+}
+#Heart-btn{
+  margin-left:20px;
+  width: 120px;
+
+}
+#Buy{
+  background-color:darkorange;  
+  margin-top: 30px;
+  margin-left: 20px;
+  width:160px;
+  height:50px;
+  font-family:"Montserrat";
+  font-size: 18px;
+  font-weight: 900;
+  border-radius:5px;
+}
+#heart{
+  display:none;
+  position: absolute;
+  top:275px;
+  left:275px;
+  border-radius:120px 0px 0px 120px;
+}
+.content{
+    Display : grid;
+    grid-template-areas:"watch mid mid mid" ;
+    grid-gap:none;
+}
+#timer{
+  display: inline-grid;
+grid-template-areas: "a a a a a a";
+font-family:"Montserrat";
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+position: absolute;
+top:280px;
+left:275px;
+}
