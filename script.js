@@ -8,24 +8,24 @@ let heart_rate_btn=document.getElementById("Heart-btn");
 let watch_inner=document.getElementById("heart");
 
 blue_btn.addEventListener("click",function(){
-    watch_img.src="/images/watch-blue.png";   
+    watch_img.src="images/watch-blue.png";   
 })
 purple_btn.addEventListener("click",function(){
-    watch_img.src="/images/watch-purple.png";
+    watch_img.src="images/watch-purple.png";
 })
 black_btn.addEventListener("click",function(){
-    watch_img.src="/images/watch-black.png";
+    watch_img.src="images/watch-black.png";
 })
 red_btn.addEventListener("click",function(){
-    watch_img.src="/images/watch-red.png";
+    watch_img.src="images/watch-red.png";
 })
 pink_btn.addEventListener("click",function(){
-    watch_img.src="/images/watch-pink.png";
+    watch_img.src="images/watch-pink.png";
 })
 heart_rate_btn.addEventListener("click",function(){
     timer.style.display="none";
     watch_inner.style.display="block";
-    watch_inner.src="/images/heart_beat.gif"; 
+    watch_inner.src="images/heart_beat.gif"; 
 })
 
 
